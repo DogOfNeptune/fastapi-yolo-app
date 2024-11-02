@@ -53,5 +53,5 @@ fastapi-yolo-app/
 2. Start the server side:
 
    ```bash
-   python backend/main.py
+   python main.py
    ```
