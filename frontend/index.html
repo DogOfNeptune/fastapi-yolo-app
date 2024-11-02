@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOLO Detection</title>
+    <link rel="stylesheet" href="frontend/styles.css">
+    <script src="frontend/scripts.js" defer></script>
+</head>
+<body>
+
+<div class="container">
+    <section class="upload-section">
+        <h2>Завантажуйте зображення для YOLO Detection</h2>
+        <input type="file" id="fileInput" accept="image/*" onchange="showPreview()">
+        <br><br>
+        <img id="previewImage" src="" alt="Image preview" style="display: none;">
+        <br><br>
+        <button onclick="uploadImage()">Вивести</button>
+    </section>
+
+    <section class="result-section">
+        <h2>Результати</h2>
+        <img id="outputImage" src="" alt="Output image" style="display: none;">
+        <br><br>
+    </section>
+</div>
+
+</body>
+</html>
