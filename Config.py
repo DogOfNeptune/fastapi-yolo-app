@@ -3,7 +3,7 @@ class Config:
     MODEL_PATH = "model/yolov8.pt"
     
     # Server configuration
-    HOST = "127.0.0.1"  # Server host address
+    HOST = "localhost"  # Server host address
     PORT = 8000  # Server port
 
     # Directory for serving static files, such as HTML, CSS, and JavaScript
